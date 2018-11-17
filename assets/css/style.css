@@ -1,4 +1,5 @@
 /* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700');
 .alignleft {
     float: left;
     margin-right: 15px;
@@ -26,6 +27,39 @@ h6 {
     font-weight: 700;
 }
 body {
-
+    font-family: 'Montserrat', sans-serif;
 }
 a:hover { text-decoration: none }
+
+.header {
+    background-color: #fff;
+    padding: 35px 65px;
+}
+
+.menu {
+    text-align: right;
+}
+
+ul.menu-area {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.menu-area li {
+    display: inline;
+}
+
+ul.menu-area li a {
+    padding-right: 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #000;
+    transition: .3s;
+    opacity: .7;
+    font-size: 13px;
+}
+
+ul.menu-area li a:hover {
+    color: #0FC8C2;
+}
