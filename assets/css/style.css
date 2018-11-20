@@ -28,14 +28,22 @@ h6 {
 }
 body {
     font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
 }
 a:hover { text-decoration: none }
+
+/*======header-stard=====*/
 
 .header {
     background-color: #fff;
     padding: 35px 65px;
 }
 
+.logo{
+    padding-left: 55px;
+}
+
+/*======menu-stard=====*/
 .menu {
     text-align: right;
 }
@@ -61,5 +69,24 @@ ul.menu-area li a {
 }
 
 ul.menu-area li a:hover {
-    color: #0FC8C2;
+    color: #20BEB8;
+}
+/*======menu-end=====*/
+
+/*======header-end=====*/
+
+.hero {
+    background-color: #F5F5F5;
+    padding: 60px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-text {
+    width: 450px;
+}
+
+.images-size {
+    height: 293px;
+    padding: 0px 0px;
 }
