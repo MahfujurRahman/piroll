@@ -37,6 +37,10 @@ a:hover { text-decoration: none }
 .header {
     background-color: #fff;
     padding: 35px 65px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
 }
 
 .logo{
@@ -75,6 +79,10 @@ ul.menu-area li a:hover {
 
 /*======header-end=====*/
 
+.hero-area {
+    margin-top: 95px;
+}
+
 .hero {
     background-color: #F5F5F5;
     padding: 60px 0px;
@@ -89,4 +97,29 @@ ul.menu-area li a:hover {
 .images-size {
     height: 293px;
     padding: 0px 0px;
+}
+
+.eye {
+    position: absolute;
+    font-size: 30px;
+    z-index: 99;
+    color: #fff;
+}
+.hover {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hover:after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: "";
+    top: 0;
+    left: 0;
+    background-color: #20BEB8;
+    opacity: .6;
+    z-index: 1;
 }
